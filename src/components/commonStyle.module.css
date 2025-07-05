@@ -1,0 +1,29 @@
+.pageBackground {
+    background-color: #f7f7f7;
+}
+
+.borderRadius {
+    border-radius: 1rem;
+}
+
+.iconWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+}
+
+.innerIconWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}

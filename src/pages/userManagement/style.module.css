@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    overflow: hidden;
+}
+
+.mainContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-height: 100vh;
+    position: relative;
+}
+
+.listContainer {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem 1rem 0 1rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+/* Ensure PrimeReact DataTable fits properly */
+.listContainer :global(.card) {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+
+.listContainer :global(.p-datatable) {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.listContainer :global(.p-datatable-wrapper) {
+    flex: 1;
+    overflow: auto !important;
+}
+
+.listContainer :global(.p-datatable-table) {
+    min-width: 100%;
+}
+
+.listContainer :global(.p-datatable-header) {
+    background: transparent;
+    border: none;
+    padding: 0 0 1rem 0;
+}

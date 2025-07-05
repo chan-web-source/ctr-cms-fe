@@ -1,0 +1,142 @@
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.actionContent {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tableStyle {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.searchContainer {
+    margin-left: auto;
+}
+
+.filterContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.filterButton {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #E0E0E0;
+    border-radius: 6px;
+    background: white;
+    color: #4B5563;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.filterButton:hover {
+    background: #F9FAFB;
+}
+
+.filterButton i {
+    font-size: 0.8rem;
+}
+
+.downloadButton {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    background: #B78427;
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.downloadButton:hover {
+    background: #9E7020;
+}
+
+.userName {
+    font-weight: 600;
+}
+
+/* DataTable Styles */
+:global(.p-datatable) {
+    font-size: 1rem;
+    width: 100%;
+}
+
+:global(.p-datatable .p-datatable-tbody > tr) {
+    height: 3rem;
+}
+
+:global(.p-datatable .p-datatable-tbody > tr > td) {
+    padding: 0.5rem;
+    word-break: break-word;
+    white-space: normal;
+}
+
+:global(.p-datatable .p-datatable-thead > tr > th) {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    background-color: #f8f9fa;
+    word-break: break-word;
+    white-space: normal;
+}
+
+:global(.p-datatable .p-column-header-content) {
+    display: flex;
+    align-items: center;
+}
+
+:global(.p-datatable-wrapper) {
+    margin-top: 0.5rem;
+}
+
+:global(.card) {
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+/* Make table responsive */
+@media screen and (max-width: 960px) {
+
+    :global(.p-datatable .p-datatable-tbody > tr > td),
+    :global(.p-datatable .p-datatable-thead > tr > th) {
+        min-width: auto !important;
+    }
+}

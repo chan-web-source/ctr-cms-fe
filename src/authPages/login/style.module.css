@@ -1,0 +1,298 @@
+.container {
+    background-color: white;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.wrapper {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem 4rem;
+    position: relative;
+    height: 100vh;
+}
+
+.formContainer {
+    width: 100%;
+    max-width: 480px;
+    background: white;
+    padding: 0;
+    border-radius: 12px;
+    box-shadow: none;
+}
+
+.logo {
+    width: 48px;
+    height: auto;
+    align-self: flex-start;
+    margin-bottom: 3rem;
+}
+
+
+.userIcon {
+    color: #666;
+    width: 24px;
+    height: 24px;
+}
+
+.title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: start;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.subtitle {
+    color: #666;
+    text-align: start;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.otpInputGroup {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.otpInputGroup>div {
+    width: 100%;
+}
+
+.otpInputGroup input {
+    width: 100% !important;
+    height: 64px !important;
+    border: 1px solid #ddd !important;
+    border-radius: 8px !important;
+    font-size: 1.25rem !important;
+    text-align: center !important;
+    margin: 0 !important;
+}
+
+.otpInputGroup input:focus {
+    outline: none !important;
+    border-color: #B8860B !important;
+    box-shadow: 0 0 0 2px rgba(184, 134, 11, 0.1) !important;
+}
+
+.inputGroup {
+    margin-bottom: 1.5rem;
+}
+
+.inputGroup label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.inputGroup input {
+    width: 100%;
+    padding: 0.875rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    background: #fff;
+}
+
+.inputGroup input:focus {
+    outline: none;
+    border-color: #B8860B;
+    box-shadow: 0 0 0 2px rgba(184, 134, 11, 0.1);
+}
+
+.submitButton {
+    width: 100%;
+    padding: 0.875rem;
+    background: #B8860B;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.submitButton:hover {
+    background: #996E00;
+}
+
+.rightContainer {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2rem;
+    color: white;
+    background-color: #8B2323;
+    margin: 1rem;
+    height: 97%;
+}
+
+.rightContainer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/colleagues.jpg');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.2;
+}
+
+.rightTitle {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.rightSubtitle {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    font-weight: 300;
+    color: white;
+}
+
+.footer {
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #666;
+    font-size: 0.875rem;
+    padding: 0 2rem;
+}
+
+.bottomRight {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    z-index: 2;
+}
+
+.contactLink {
+    background: #B8860B;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-left: 0.5rem;
+}
+
+.forgotPassword {
+    text-align: right;
+    margin-bottom: 1.5rem;
+}
+
+.forgotPassword a {
+    color: #8B1D24;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.helpSection {
+    bottom: 2rem;
+    right: 2rem;
+    color: #ffffff;
+    z-index: 5;
+}
+
+.error {
+    color: #dc2626;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+}
+
+.mfaSection {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.resendWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.resendText {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0;
+}
+
+.resendButton {
+    background: none;
+    border: none;
+    color: #FF0000;
+    font-size: 1.1rem;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+    transition: color 0.2s ease;
+    font-weight: 500;
+}
+
+.resendButton:hover {
+    color: #CC0000;
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        display: block;
+        overflow-y: auto;
+    }
+
+    .wrapper {
+        width: 100%;
+        padding: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    .footer {
+        position: static;
+    }
+
+
+    .rightContainer {
+        position: relative;
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        margin: 0;
+    }
+}

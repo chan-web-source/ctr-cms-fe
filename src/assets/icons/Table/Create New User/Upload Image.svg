@@ -1,0 +1,12 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 31.9912C0 14.3181 14.3269 -0.00878906 32 -0.00878906C49.6731 -0.00878906 64 14.3181 64 31.9912C64 49.6643 49.6731 63.9912 32 63.9912C14.3269 63.9912 0 49.6643 0 31.9912Z" fill="#E1E4EA"/>
+<g clip-path="url(#clip0_2544_2097)">
+<ellipse cx="32" cy="62.3914" rx="25.6" ry="19.2" fill="white" fill-opacity="0.72"/>
+<circle opacity="0.9" cx="32" cy="25.591" r="12.8" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_2544_2097">
+<rect y="-0.00878906" width="64" height="64" rx="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

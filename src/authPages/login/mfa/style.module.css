@@ -1,0 +1,242 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f3f4f6;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.formContainer {
+    background: white;
+    padding: 3rem;
+    margin: 0;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.iconWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f4f6;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 1rem;
+}
+
+.userIcon {
+    color: #6b7280;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #111827;
+}
+
+.subtitle {
+    color: #666;
+    text-align: start;
+    margin-bottom: 2rem;
+}
+
+.inputGroup {
+    margin-bottom: 1.5rem;
+}
+
+.inputGroup label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.inputGroup input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.forgotPassword {
+    text-align: right;
+    margin-bottom: 1.5rem;
+}
+
+.forgotPassword a {
+    color: #8B1D24;
+    text-decoration: none;
+}
+
+.submitButton {
+    width: 100%;
+    padding: 0.75rem;
+    background: #B8860B;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background: #996E00;
+}
+
+.footer {
+    text-align: center;
+    color: #666;
+    margin-top: 2rem;
+}
+
+.helpSection {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    color: #ffffff;
+    z-index: 1000;
+}
+
+.contactLink {
+    background: #B8860B;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-left: 0.5rem;
+}
+
+.error {
+    color: #dc2626;
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+.disabledMessage {
+    display: block;
+    color: #9ca3af;
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+    font-style: italic;
+}
+
+.logo {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    width: 70px;
+    height: auto;
+
+}
+
+.bottomRight {
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.rightContainer {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2rem;
+    color: white;
+    background-color: #8B2323;
+}
+
+
+.rightTitle {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.rightSubtitle {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    font-weight: 300;
+    color: white;
+}
+
+.mfaOptionsContainer {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    max-width: 400px;
+}
+
+.mfaOption {
+    flex: 1;
+    background: white;
+    padding: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    min-width: 160px;
+}
+
+.mfaOption:hover {
+    border-color: #B8860B;
+}
+
+.mfaOption.selected {
+    border-color: #B8860B;
+    background-color: white;
+}
+
+.mfaIconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 0.75rem;
+}
+
+.mfaIcon {
+    color: #B8860B;
+}
+
+.mfaOption h2 {
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin: 0 0 0.25rem 0;
+    color: #111827;
+}
+
+.mfaOption p {
+    font-size: 0.75rem;
+    color: #6b7280;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.mfaOption.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    border-color: #e5e7eb;
+    background-color: #f9fafb;
+}
+
+.mfaOption.disabled:hover {
+    border-color: #e5e7eb;
+}
+
+.mfaOption.disabled .mfaIcon {
+    color: #9ca3af;
+}

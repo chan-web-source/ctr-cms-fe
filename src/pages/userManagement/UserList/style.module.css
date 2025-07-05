@@ -1,0 +1,221 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.mainContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.actionContent {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tableStyle {
+    padding: 0;
+    margin: 0;
+    gap: 0;
+    margin-top: 1rem;
+}
+
+.tableStyle :global(.p-datatable-thead) {
+    background-color: #f8f9fa;
+}
+
+.tableStyle :global(.p-column-filter) {
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.tableStyle :global(.p-column-filter input) {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.tableStyle :global(.p-datatable-header) {
+    background-color: transparent;
+    border: none;
+    padding: 1rem;
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.userName {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+/* DataTable Styles */
+:global(.p-datatable) {
+    font-size: 1.2rem;
+}
+
+:global(.p-datatable .p-datatable-tbody > tr) {
+    height: 3.5rem;
+}
+
+:global(.p-datatable .p-datatable-tbody > tr > td) {
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
+
+:global(.p-datatable .p-datatable-thead > tr > th) {
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
+
+:global(.p-datatable .p-column-header-content) {
+    display: flex;
+    align-items: center;
+}
+
+:global(.p-datatable-wrapper) {
+    margin-top: 0.5rem;
+}
+
+:global(.card) {
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+:global(.p-tag) {
+    font-size: 1.1rem !important;
+    padding: 0.5rem 0.75rem !important;
+}
+
+:global(.p-multiselect-item) {
+    font-size: 1.2rem !important;
+    padding: 0.75rem !important;
+}
+
+:global(.p-multiselect-header) {
+    font-size: 1.2rem !important;
+    padding: 0.75rem !important;
+}
+
+:global(.p-multiselect-trigger) {
+    font-size: 1.2rem !important;
+}
+
+.title {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.searchContainer {
+    margin-top: 0.5rem;
+}
+
+.searchContainer :global(.p-inputtext) {
+    font-size: 1.2rem;
+}
+
+.searchActions {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    justify-content: flex-end;
+}
+
+.searchWrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.searchField {
+    position: relative;
+    min-width: 300px;
+}
+
+.searchField :global(.p-inputtext) {
+    width: 100%;
+    padding: 0.75rem 1rem 0.75rem 2.5rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+}
+
+.searchField :global(.p-input-icon) {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #64748b;
+}
+
+.filterButton {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    color: #475569;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.filterButton:hover {
+    background-color: #f1f5f9;
+}
+
+.createButton {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    background-color: #b78727;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.createButton:hover {
+    background-color: #a67923;
+}
+
+.createButton i,
+.filterButton i {
+    font-size: 1.2rem;
+}
+
+.accountTypeBadge {
+    border: 1px solid #E5E7EB;
+    border-radius: 100px;
+    padding: 6px 12px;
+    display: inline-flex;
+    background-color: #FFFFFF;
+    align-items: center;
+    gap: 0.375rem;
+}
+
+.accountTypeIcon {
+    width: 16px;
+    height: 16px;
+    color: #6B7280;
+}
+
+.accountTypeText {
+    font-size: 0.875rem;
+    color: #4B5563;
+    font-weight: 500;
+}
