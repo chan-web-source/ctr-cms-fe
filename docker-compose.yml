@@ -2,7 +2,7 @@ version: '3'
 
 services:
   frontend:
-    image: ctr-fe
+    image: pc-fe
     build:
       context: .
       dockerfile: Dockerfile

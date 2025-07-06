@@ -48,7 +48,7 @@ const LeftPanel = () => {
           <img src={logo} alt="Logo" className={style.logo} />
           {isExpanded && (
             <span className={style.brandName}>
-              CTR
+              P.C.
               <br />
               Licensing
             </span>

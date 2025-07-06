@@ -226,7 +226,7 @@ const Login = () => {
       </div>
 
       <div className={`${style.rightContainer} ${commonStyles.borderRadius}`}>
-        <h2 className={style.rightTitle}>CTR Licensing.</h2>
+        <h2 className={style.rightTitle}>P.C. Licensing.</h2>
         <h1 className={style.rightSubtitle}>
           Empowering Capital Formation with Fair and Secure Markets
         </h1>
