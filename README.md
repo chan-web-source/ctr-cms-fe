@@ -1,3 +1,6 @@
+# Frontend of CMS base sample (Login and data table)
+Using MUI (form filing), styled component (CSS), prime-react (data table with filterings, search), axios for API handling
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
